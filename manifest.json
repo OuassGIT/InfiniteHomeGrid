@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "HomeSweetHome",
   "version": "1.0",
   "description": "A minimalist, dark-themed new tab page with a grid of app icons.",
@@ -8,5 +8,8 @@
   },
   "permissions": [
     "storage"
-  ]
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; img-src 'self' https://www.google.com;"
+  }
 }
