@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "HomeSweetHome",
+  "version": "1.0",
+  "description": "A minimalist, dark-themed new tab page with a grid of app icons.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}

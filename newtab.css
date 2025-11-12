@@ -1,0 +1,40 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#app-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.app-icon {
+  background-color: #282828;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.app-icon:hover {
+  background-color: #383838;
+}
+
+.app-icon img {
+  width: 64px;
+  height: 64px;
+}
+
+.app-icon p {
+  margin: 5px 0 0; /* Reduced margin */
+  font-size: 12px; /* Reduced font size */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
