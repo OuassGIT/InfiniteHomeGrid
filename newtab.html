@@ -6,6 +6,23 @@
 </head>
 <body>
   <div id="app-grid"></div>
+
+  <button id="edit-button">Edit Shortcuts</button>
+
+  <div id="edit-modal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h2>Edit Shortcuts</h2>
+      <form id="edit-form">
+        <div id="form-app-list">
+          <!-- App entries will be dynamically added here -->
+        </div>
+        <button type="button" id="add-app-button">Add App</button>
+        <button type="submit">Save</button>
+      </form>
+    </div>
+  </div>
+
   <script src="newtab.js"></script>
 </body>
 </html>
